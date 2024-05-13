@@ -118,7 +118,7 @@ img {
   /*   margin-top: 3rem; */
 }
 
-.btn:hover {
+.btn: hover {
   opacity: 0.9;
 }
 
@@ -135,74 +135,12 @@ img {
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
 }
-
-/* Media Queries */
-
-@media (max-width: 960px) {
-  .showcase {
-    height: 100vh;
-  }
-
-
-
-  .showcase-content h1 {
-    font-weight: 700;
-    font-size: 3.7rem;
-    line-height: 1rem;
-    margin: 0 0 2rem;
-  }
-
-  .showcase-content p {
-    font-weight: 400;
-    color: #fff;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    line-height: 1rem;
-    margin: 0 0 2rem;
-  }
-
-  .btn-xl {
-    font-size: 1.5rem;
-    padding: 1.2rem 1.8rem;
-    text-transform: uppercase;
-  }
-}
-
-@media (max-width: 500px) {
-  .showcase::after {
-    box-shadow: inset 75px 50px 100px #000000, inset -75px -50px 100px #000000;
-  }
-
-  .showcase {
-    height: 100vh;
-  }
-
-
-  .showcase-content h1 {
-    font-size: 1.8rem;
-    line-height: 1rem;
-  }
-
-  .showcase-content p {
-    font-size: 1.2rem;
-  }
-
-  .btn {
-    margin-right: 0.1rem;
-  }
-
-  .btn-xl {
-    font-size: 1.2rem;
-    padding: 1rem 1.2rem;
-    text-transform: uppercase;
-  }
-}
 .name{
     color: #fff;
     font-size: 0.75rem;
 }
 
-    </style>
+  </style>
   </head>
   <body>
     <header class="showcase">
