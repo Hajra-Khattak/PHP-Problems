@@ -3,6 +3,7 @@ Mastering in PHP and ready to dig in deep by solving Problems Solutions
 
 <div align="center">
   <h1 align="center">PHP CHALLENGES</h1>
+  <b align="center">Mastering in PHP and ready to dig in deep by solving Problems Solutions</b>
   <h3>Accepted</h3>
 
   <a href="#" target="_blank" style="display: block;">
