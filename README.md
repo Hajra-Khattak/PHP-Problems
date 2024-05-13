@@ -1,6 +1,5 @@
 # PHP-Problems
 Mastering in PHP and ready to dig in deep by solving Problems Solutions
-<!DOCTYPE html>
 
 <body style="margin: 0; padding: 0; font-family: 'Arial', sans-serif; background: #000; color: #999;">
     <header class="showcase" style="width: 100%; height: 100vh; position: relative; background: url('https://github.com/sjvarnum/acme-media-showcase/blob/master/img/showcase.jpg?raw=true') no-repeat center center/cover;">
