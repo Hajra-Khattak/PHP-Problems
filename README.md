@@ -1,11 +1,8 @@
 # PHP-Problems
 Mastering in PHP and ready to dig in deep by solving Problems Solutions
 <!DOCTYPE html>
-<html>
-  <head>
-    <style></style>
-  </head>
-  <body style="margin: 0; padding: 0; font-family: 'Arial', sans-serif; background: #000; color: #999;">
+
+<body style="margin: 0; padding: 0; font-family: 'Arial', sans-serif; background: #000; color: #999;">
     <header class="showcase" style="width: 100%; height: 100vh; position: relative; background: url('https://github.com/sjvarnum/acme-media-showcase/blob/master/img/showcase.jpg?raw=true') no-repeat center center/cover;">
       <div class="showcase-content" style="position: relative; margin: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin-top: 9rem; z-index: 2;">
         <h1 style="font-weight: 700; font-size: 5.2rem; line-height: 1.1rem; margin: 0 0 2rem; color: #fff;">PHP CHALLENGES </h1>
@@ -21,4 +18,3 @@ Mastering in PHP and ready to dig in deep by solving Problems Solutions
       </div>
     </footer>
   </body>
-</html>
