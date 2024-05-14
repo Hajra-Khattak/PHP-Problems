@@ -195,29 +195,44 @@ img {
         <?php
         print_array($array);
 
-        function MaxValue($arra , $size){
-            $array = $arra;
-            $n = $size;
-            if($n <= 2 ){
-                if( $array[0]> $array[1]){
-                    echo $array[0];
+        function MaxValue(array $arr){
+          $array = $arr;
+          $size = count($array);
+          for($i = 0; $i < $size; $i++){
+              for ($j=0; $j < $i; $j++) { 
+                # code...
+                if($array[$i] > $array[$i+1]){
+                  echo "Max Value is " . $array[$i];
                 }
-                else{
-                    echo $array[1];
-                }
-            }
-
-            if($n > 2){
-                for($i = 0; $i < $n; $i++ ){
-                    if($array[$i]> $array[$i+1]){
-                        echo $array[$i];
-                    }
-                    else{
-                        echo $array[$i+1];
-                    }
-                }
-            }
+              }
+          }
         }
+
+
+
+        // function MaxValue($arra , $size){
+        //     $array = $arra;
+        //     $n = $size;
+        //     if($n <= 2 ){
+        //         if( $array[0]> $array[1]){
+        //             echo $array[0];
+        //         }
+        //         else{
+        //             echo $array[1];
+        //         }
+        //     }
+
+        //     if($n > 2){
+        //         for($i = 0; $i < $n; $i++ ){
+        //             if($array[$i]> $array[$i+1]){
+        //                 echo $array[$i];
+        //             }
+        //             else{
+        //                 echo $array[$i+1];
+        //             }
+        //         }
+        //     }
+        // }
 
 
         ?>
